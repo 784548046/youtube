@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="youtube.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <span class="material-icons incon-menu">menu</span>
+            <a href="#">
+                <img src="images/youtubelogo.png" alt="" class="logo">
+            </a>
+            <form action="">
+                <input type="search" name="search" id="search" placeholder="search" aria-label="search">
+                <button class="search-btn"  type="submit">
+                    <span class="material-icons">search</span>
+                </button>
+                <span id="parler" class="material-icons">mic</span>
+            </form>
+            <div class="icons-menu-haut">
+                <a href="" class="icon">
+                    <span class="material-icons">videocam</span>
+                </a>
+                <a href="" class="icon">
+                    <span class="material-icons">apps</span>
+                </a>
+                <a href="" class="icon">
+                    <span class="material-icons">notifications</span>
+                </a>
+                <a href="">
+                    <!-- <img class="icon-de-chaine" src="http://unsplash.it/36/36?gravity=center" alt=""> -->
+                    <img class="icon-de-chaine" src="images/avatar.png" alt="">
+                </a>
+            </div>
+        </header>
+        <div class="section-principal">
+            <div class="menu-gauche">
+                <div class="sroll-bar">
+                    <ul>
+                        <li class="list active">
+                            <a href="">
+                                <span class="material-icons">home</span>
+                                <span class="list-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">trending_up </span>
+                                <span class="list-text">Trending</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">subscriptions</span>
+                                <span class="list-text">subscriptions</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">video_library</span>
+                                <span class="list-text">Library</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">history </span>
+                                <span class="list-text">History</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">slideshow</span>
+                                <span class="list-text">Your videos</span>
+                            </a>
+                        </li>
+                        <li class="list active">
+                            <a href="">
+                                <span class="material-icons">watch_later</span>
+                                <span class="list-text">Watch later</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">thumb_up_alt </span>
+                                <span class="list-text">Liked videos</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">expand_more</span>
+                                <span class="list-text">Show more</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <h2>Subscriptions</h2>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">face</span>
+                                <span class="list-text">code</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">face </span>
+                                <span class="list-text">Dev</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">face</span>
+                                <span class="list-text">Info</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <h2>Explorer</h2>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">face</span>
+                                <span class="list-text">code</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">face </span>
+                                <span class="list-text">Dev</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="">
+                                <span class="material-icons">face</span>
+                                <span class="list-text">Info</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-droite">
+                 <!--------------------------- barre d'option -------------------------------->
+                 <div class="sroll-bar2">
+                    <div class="options-bar">
+                        <a href="#" class="option">Tous</a>
+                        <a href="#" class="option">Mix</a>
+                        <a href="#" class="option">Musique</a>
+                        <a href="#" class="option">TelenovelasEn</a>
+                        <a href="#" class="option">Serie</a>
+                        <a href="#" class="option">Animation</a>
+                        <a href="#" class="option">Comédie</a>
+                        <a href="#" class="option">Feuille</a>
+                        <a href="#" class="option">Diffusion</a>
+                        <span class="material-icons">chevron_right</span>
+                    </div>
+                </div>
+        
+                <section class="videos">
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="18:10">
+                        <a href="">
+                            <img src="images/avatar2.png" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="images/avatar.png" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="">creating entire website using Bootstrap </a>
+                                <a class="nom-de-chaine" href="">Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
